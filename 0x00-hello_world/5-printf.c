@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 /**
- * main - print the string in the put function
+ * main - Entry point
  *
- * Description: using the main function
- * this program prints "programing is like building a multilingual puzzel
- * Return (0):
+ * Return: 0 after print the function
  */
+
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
