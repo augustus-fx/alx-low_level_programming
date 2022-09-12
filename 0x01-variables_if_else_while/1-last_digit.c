@@ -8,7 +8,7 @@
  *
  * Return: 0 on success
  **/
-int mai(void)
+int main(void)
 {
 	int n;
 
