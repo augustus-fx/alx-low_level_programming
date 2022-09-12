@@ -11,14 +11,15 @@ int main(void)
 	int e;
 
 	i = 48;
-	e = 58;
+	e = 48;
 
+		e = 48;
 	while (e < 58)
 	{
 		i = 48;
 		while (i < 58)
 		{
-			if (e != i && e < 1)
+			if (e != i && e < i)
 			{
 				putchar(e);
 				putchar(i);
