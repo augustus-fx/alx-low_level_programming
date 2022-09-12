@@ -1,17 +1,19 @@
 #include <stdio.h>
 
 /**
- *main - Entry point
+ *main - Prints numbers between 0 to 9.
  *
  *return: 0 after printiing the function
  */
-int main(void);
+int main(void)
 {
-	printf("Size of a char: %d byte(s)\n", sizeof(char));
-	printf("Size of an int: %d byte(s)\n", sizeof(int));
-	printf("Size of a long int: %d byte(s)\n", sizeof(long int));
-	printf("Size of a long long int: %d byte(s)\n", sizeof(long long int));
-	printf("Size of a float: %d byte(s)", sizeof(float));
+	int i;
+
+	for (i = 48; i < 58; i++)
+	{
+		putchar(i);
+
+	}
+	putchar('\n');
 	return (0);
 }
-
