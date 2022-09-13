@@ -1,4 +1,4 @@
-#inlcude "main.h"
+#include "main.h"
 /**
  * _islower - function to check for lowecase
  * @c: is the int that will use for the argument of the function
