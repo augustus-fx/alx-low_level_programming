@@ -9,7 +9,7 @@ int main(void)
 	int i = 1;
 	long int num1 = 0;
 	long int num2 = 1;
-	long int sumPrevtwo = 0;
+	long int sumPrevTwo = 0;
 	long int sumEven = 0;
 	long int maxFibTerm = 4000000;
 
