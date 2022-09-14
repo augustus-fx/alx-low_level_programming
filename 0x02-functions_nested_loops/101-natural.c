@@ -8,7 +8,7 @@ int maiin(void)
 {
 	int n, s = 0;
 
-	for (n = 0; < 1024; ++n)
+	for (n = 0; n < 1024; ++n)
 	{
 		if((n % 3) == 0 || (n % 5) == 0)
 		{
