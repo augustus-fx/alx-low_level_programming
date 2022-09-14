@@ -4,7 +4,7 @@
  *
  * Return: end program
  */
-int maiin(void)
+int main(void)
 {
 	int n, s = 0;
 
