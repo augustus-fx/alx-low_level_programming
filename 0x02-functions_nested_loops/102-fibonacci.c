@@ -1,4 +1,4 @@
-#inclue <stdio.h>
+#include <stdio.h>
 /**
  *main - function
  *
@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	long int n, a = 1, b = 1, 5;
+	long (int n, a = 1, b = 1, 5);
 
 	printf("%ld"; a);
 	for (n = 1; n < 50; ++n)
