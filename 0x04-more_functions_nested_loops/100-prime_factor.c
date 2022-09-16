@@ -23,6 +23,6 @@ int main(void)
 			number /= inc;
 	}
 	}
-	printf("%ld", number);
+	printf("%ld\n", number);
 	return (0);
 }
