@@ -5,7 +5,7 @@
  * @s: string
  * @c: character to search
  * Return: Pointer to the first occurence of the character c in the string s
- */
+ **/
 
 char *_strchr(char *s, char c)
 {
@@ -27,4 +27,3 @@ char *_strchr(char *s, char c)
 
 	return (0);/* values null*/
 }
-
