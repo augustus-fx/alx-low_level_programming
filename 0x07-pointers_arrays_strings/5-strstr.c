@@ -11,7 +11,7 @@ char *_strstr(char *haystack, char *needle)
 {
 	char *str1, *str2; /*Declaring variables*/
 
-	while (haystack != '\0')
+	while (*haystack != '\0')
 	{
 		str1 = haystack; /*values*/
 		str2 = needle;
@@ -24,7 +24,7 @@ char *_strstr(char *haystack, char *needle)
 		}
 		if (*str2 == '\0')
 			return (str1);
-		haystack = str1 + i;
+		haystack = str1 + 1;
 	}
 	return (0);
 }
