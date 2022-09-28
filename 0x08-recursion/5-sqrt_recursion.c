@@ -23,7 +23,7 @@ int helperFunction(int num, int pSqrt)
 }
 
 /**
-* _sqrt_resursion - returns the natural square root of a number.
+* _sqrt_recursion - returns the natural square root of a number.
 * @n: number to find sqrt of.
 *
 * Return: squareroot of n.
