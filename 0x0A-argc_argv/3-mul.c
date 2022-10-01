@@ -1,7 +1,7 @@
 #include <stdio.h>
-#include <stdlib.h
+#include <stdlib.h>
 /**
- * main - this is a function to print its name
+ * main - this functon prints the multiplication of two numbers
  * @argc: argc parameter
  * @argv: an array of a command listed
  * Return: 0 for success
@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		printf("%s\n", "Error");
+		printf("%d\n", "Error");
 		return (1);
 	}
 	num1 = atoi(argv[1]);
