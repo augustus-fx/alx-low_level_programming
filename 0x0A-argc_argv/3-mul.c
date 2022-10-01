@@ -10,7 +10,7 @@ int main(int argc, char *argv[])
 {
 	int num_1, num_2, mul;
 
-	if (arg != 3)
+	if (argc != 3)
 		printf("Error\n");
 	else
 	{
@@ -19,5 +19,5 @@ int main(int argc, char *argv[])
 		mul = num_1 * num_2;
 		printf("%d\n", mul);
 	}
-	Return(0);
+	return (0);
 }
