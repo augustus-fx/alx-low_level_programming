@@ -1,4 +1,4 @@
-#include "main.H"
+#include "main.h"
 #include <stdio.h>
 /**
  * _strdup - returns a pointer to a newly allocated
@@ -15,7 +15,7 @@ char *_strdup(char *str)
 	char *nstr;
 	unsigned int len, i;
 
-	/*check if str is null*/
+	/* check if str is null */
 	if (str == NULL)
 	{
 		return (NULL);
@@ -28,7 +28,7 @@ char *_strdup(char *str)
 	}
 	nstr = malloc(sizeof(char) * (len + 1));
 
-	/*check if malloc was successful*/
+	/* check if malloc was successful */
 	if (nstr == NULL)
 	{
 		return (NULL);
