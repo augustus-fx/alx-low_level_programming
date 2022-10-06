@@ -10,7 +10,7 @@
  * Return: If min > max or the function fails - NULL.
  * Else - a pointer to the newly created array.
  */
-int array_range(int min, int max)
+int *array_range(int min, int max)
 {
 	int i, l;
 	int *a;
