@@ -7,7 +7,7 @@
  * @old_size: size of allocated memory for ptr
  * @new_size: size of newly allocated space
  *
- * Return: pointer to new mem block, NULL or ptr.
+ * Return: pointer to newly allocated memory, NULL if failure.
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
@@ -17,7 +17,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 
 	if (ptr == NULL)
 	{
-		p = maloc(new_size);
+		p = malloc(new_size);
 		return (p);
 	}
 	else if (new_size == 0)
