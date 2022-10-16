@@ -5,9 +5,9 @@
  * @name: pointer to name.
  * @f: function pointer.
  *
- * Return: function pointer.
+ * Return: no return.
  */
-void print_name(char *name, void (*f)(char *));
+void print_name(char *name, void (*f)(char *))
 {
 	if (name && f)
 		f(name);
