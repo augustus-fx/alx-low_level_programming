@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * add_nodeint - function that add node lists.h the beg nning of list
+ * add_nodeint - function that add node lists.h the beginning of list
  * @head: Header pointer to the list
  * @n: Data to be added to list
  * Return: Nothing
