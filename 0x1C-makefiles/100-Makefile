@@ -1,6 +1,6 @@
 NAME = school
 
-CC - gcc
+CC = gcc
 CFLaGS = -Wall -Werror -Wextra -pedantic
 
 OBJ = $(SRC:.c=.o)
