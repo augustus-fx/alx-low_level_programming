@@ -71,7 +71,7 @@ typedef struct shash_table_s
 {
 	unsigned long int size;
 	shash_node_t **array;
-	hash_node_t *shead;
+	shash_node_t *shead;
 	shash_node_t *stail;
 } shash_table_t;
 

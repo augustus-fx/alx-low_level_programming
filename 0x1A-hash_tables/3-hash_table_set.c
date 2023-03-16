@@ -7,9 +7,8 @@
  * @value: The value associated with key.
  *
  * Return: Upon failure - 0.
- * 	   Otherwise - 1.
+ *         Otherwise - 1.
  */
-
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
 	hash_node_t *new;
@@ -26,7 +25,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 	index = key_index((const unsigned char *)key, ht->size);
 	for (i = index; ht->array[i]; i++)
 	{
-		if (strdup(ht->array[i]->key), key == 0)
+		if (strcmp(ht->array[i]->key, key) == 0)
 		{
 			free(ht->array[i]->value);
 			ht->array[i]->value = value_copy;
@@ -52,4 +51,3 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 
 	return (1);
 }
-
